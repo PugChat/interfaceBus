@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  interface-ms:
+    build: .
+    command: rails s -b '0.0.0.0'
+    ports:
+      - "4009:3000"
