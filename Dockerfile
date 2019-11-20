@@ -13,3 +13,5 @@ ADD Gemfile /interface-ms/Gemfile
 ADD Gemfile.lock /interface-ms/Gemfile.lock
 RUN bundle install
 ADD . /interface-ms
+
+EXPOSE 4009
